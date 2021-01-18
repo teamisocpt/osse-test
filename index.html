@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+
+<!-- TODO:
+
+Nada
+
+
+-->	
+
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Projeto OSSE do ISOC Portugal - Teste da OVH</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-layers.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-xlarge.css" />
+		</noscript>
+		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="/favicon.ico" type="image/x-icon">
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+	</head>
+	
+	<body class="landing">
+
+		<!-- Header -->
+			<header id="header">
+				<h1><a href="https://isoc.pt">Site do ISOC PT</a></h1>
+				<nav id="nav">
+					<ul>
+                        <li   class="active"> <a href="index.html">Home</a></li>
+						<li> <a href="https://isoc.pt/projeto-osse" target="_blank">Projeto OSSE</a></li>
+						<li> <a href="https://internet.nl" target="_blank">Internet.nl</a></li>
+						<li> <a href="https://www.internetsociety.org/issues/open-standards-everywhere/" target="_blank">Open Standards Everywhere</a></li>
+						<li> <a href="https://isoc.org" target="_blank">Internet Society</a></li>
+                    </ul>  
+				</nav>
+			</header>
+
+		<!-- Banner -->
+		<section id="banner">
+				<h2>Projeto OSSE do ISOC Portugal<br><br>Resultados do teste Internet.nl da OVH<br></h2>
+			<img src="images/isoc-symbol-white.png" height="100" alt=""/>
+		</section>
+		
+		
+<!-- Start of page -->
+	<section id="inicio" class="wrapper style3 align-center">
+              <div class="container">
+                  <header>
+                      <h2><br>Projeto (OSSE) Open Security Standards Everywhere<br></h2>
+                  </header>
+              </div>
+        <p></p><p>O projeto <strong>OSSE</strong> do Capítulo Português da Internet Society
+            visa promover uma mais completa adoção de normas de segurança pelos principais atores da Internet
+            em Portugal. Esse objetivo passa pela divulgação dessas normas e de como as utilizar, instalar e parametrizar,
+            assim como pela verificação da sua adoção pelos sites e outros serviços 
+            desses atores. As normas de segurança são as recomendadas por organismos como o 
+            <a href="https://ietf.org" target="_blank"> IETF (Internet Engineering Task Force)</a> e outros equiparáveis.</p>
+        <p>O projeto insere-se no projeto
+            <a href="https://www.internetsociety.org/issues/open-standards-everywhere/" target="_blank">
+            Open Standards Everywhere </a> da 
+            <a href="https://isoc.org" target="_blank"> Internet Society</a> e é por esta subsidiada.
+            </p>
+        <p>Com o objetivo de testar a adoção das normas de segurança, o projeto adopta os procedimentos
+            de teste executados pela iniciativa 
+        <a href="https://internet.nl" target="_blank"> Internet.nl</a>, uma plataforma
+            da comunidade da Internet, apoiada pelo Governo Holandês e também pela própria
+			<a href="https://isoc.org" target="_blank"> Internet Society</a>
+			</p>
+        <p> Uma das vertentes do projeto OSSE é a promoção das normas de segurança junto dos
+            principais fornecedores de serviços de <em>hosting</em>. Para esse efeito, o projeto contratou os
+            serviços e monta um site tipo em cada um dos 5 maiores fornecedores de serviços de <em>hosting</em> em
+            Portugal. O critério de seleção dos 5 maiores fornecedores de serviços de <em>hosting</em> em Portugal é 
+			indiretamente aferido por nós usando o número de domínios terminados .PT que esses fornecedores gerem. 
+			De acordo com o relatório de actividades do ano de 2019 da associação DNS.PT,
+			atual gestora do cc TLD .PT, os seguintes
+			<em>registrars</em> são os que mais domínios terminados em .PT gerem 
+			(por ordem decrescente do número de domínios geridos):
+		</p>
+		<ul>
+            <li>Dominios.pt</li>
+			<li>Amen.pt</li>
+			<li>PTisp.pt</li>
+			<li>OVH.pt</li>
+			<li>Iberweb.pt</li>
+        </ul> 
+	</section>
+		
+    <section id="resultados-ovh" class="wrapper style3 align-center">
+          <div class="container">
+              <header>
+                  <h2><br>Resultados do teste da OVH - Procedimento seguido<br></h2>
+              </header>
+          </div>
+    <p>
+    </p><p>
+	De forma completamente anónima, o ISOC Portugal contratou os serviços da OVH e executou as seguintes ações:
+    <ul>
+        <li>Contratou à OVH o registo e gestão do domínio <strong>"teste-osse-isoc-ovh.pt".</strong></li>
+        <li>Solicitou a adopção do serviço DNSSEC para esse domínio.</li>
+        <li>Contratou à OVH um serviço de hosting da página WEB associada ap domínio <strong>"teste-osse-isoc-ovh.pt".</strong></li>
+        <li>Solicitou a adopção de um certificado LetsEncrypt associado ao site desse domínio.</li>
+        <li>Contratou igualmente o serviço de email para o domínio.</li>
+        <li>Criou a mailbox <strong>"contacto@teste-osse-isoc-ovh.pt".</strong></li>
+		<li>Fez o setup deste conteúdo que apenas usa HTML e CSS.</li>
+		<li>Fez alguns ajustes na página ao nível do ficheiro: <strong>.htaccess</strong> para forçar a redireção para HTTPS.</li>
+		<li>Executou os testes Internet.nl sobre o novo site e serviço de mail hosted pela OVH</li>
+    </ul> 
+    </p>
+	<p>Você pode executar os mesmos testes usando o site <a href="https://internet.nl" target="_blank"> Internet.nl</a>.</p>
+    </section>		
+	
+	<!--<section class="wrapper style3 align-center">
+		<div class="container">
+					<header>
+						<h2><br>Secções<br></h2>
+					</header>
+		</div>
+	</section>
+		
+		
+	<section class="wrapper style3 align-center">
+		<div class="row">
+						<section class="feature 6u 12u$(small)">
+							<img class="image fit" src="images/team2.jpg" alt="" />
+							<h2 class="title">Assembleias e Relatórios </h2>
+							<p>
+                                Estatutariamente, e também como condição de prova de 
+								vida do capítulo, exigida pela Internet Society, anualmente
+								devem ter lugar assembleias gerais da associação.
+								Nesta seção é possível
+								consultar toda a documentação referente
+								às decisões tomadas nas assembleias gerais que tiveram lugar
+								desde a fundação da associação.
+                                <a href="ags.html"> Ler mais. </a>
+							</p>
+						</section>
+
+						<section class="feature 6u 12u$(small)">
+						<img class="image fit" src="images/praca-comercio2.jpg" alt="" />
+							<h2 class="title">Estatutos e Regulamentos</h2>
+							<p>
+							De acordo com a Lei que rege as associações, estas devem
+							possuir estatutos que regem o seu funcionamneto.
+							Tal é o caso do ISOC PT, cujos estatutos, aprovados em
+							2010 / 2011, e as alterações posteriores, estão
+							todos aqui disponíveis. Estão também disponíveis os
+							regulamentos que regulam diversos aspetos da vida
+							da associação como por exemplo as quotizações anuais e
+							a forma como são geridas as eleições.
+							Finalmente, está também disponível a cópia do
+							contrato de filiação da Associação ISOC Portugal
+							Chapter na Internet Society.
+							<a href="rules.html"> Ler mais. </a>	
+							</p>
+						</section>
+			
+					</div>
+	</section>	
+	
+-->	
+	
+	
+	
+<section class="wrapper style3 align-center">
+				<div class="container">
+					<header>
+						<h2><br>Para nos contactar<br><br></h2>
+					</header>
+				</div>
+ 
+		  
+		  <ul>
+		  <li><b>Internet Society - Portuguese Chapter</b><br>
+		  Departamento de Informática da FCT/UNL - Campus da Caparica<br>
+		  2859-516 Monte Caparica - Portugal</li>
+		  <li>Email: secretariado at isoc.pt / direcao at isoc.pt</li>
+		  <li><a href="https://www.facebook.com/Internet-Society-Portugal-Chapter-184495518264110" target="_blank">Siga-nos no Facebook</a></li>
+          <li><a href="https://twitter.com/isocpt?s=09" target="_blank">Siga-nos no Twitter</a></li><br>
+          </ul>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12462.191514458938!2d-9.204099!3d38.659275!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xecf5d74bdcdaaa57!2sFaculdade%20de%20Ci%C3%AAncias%20e%20Tecnologia%20da%20Universidade%20Nova%20de%20Lisboa!5e0!3m2!1sen!2sus!4v1594232536105!5m2!1sen!2sus" width="440" height="330" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+		  <br>
+</section>
+
+
+
+	<!-- Footer -->
+			<footer id="footer">
+				<div class="container">
+					<div class="feature 6u$ 6u$(small)">
+						<section> 
+							<h3>© ISOC PT - 2021</h3>
+							<p>No information on the visitors of this site is collected.<br>
+							Design inspired from: <a href="https://templated.co">TEMPLATED</a>.<br> 
+							Site maintained by <a href="https://legatheaux.eu">José Legatheaux</a>.</p>
+						</section>
+					</div>
+				</div>
+			</footer>
+
+	
+		
+		
+	</body>
+</html>
